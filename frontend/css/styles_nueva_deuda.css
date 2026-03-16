@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('../img/crear_deuda.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+
+  .contenedor {
+    background-color: rgba(0, 97, 100, 0.85);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .encabezado {
+    position: relative;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    margin: 5px 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .ver_deudas {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .contenedor-formulario {
+    background-color: #00676e;
+    padding: 20px;
+    max-width: 700px;
+    max-height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  .grupo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .grupo-formulario label {
+    display: block;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .grupo-formulario input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .ancho-completo input {
+    width: 650px;
+  }
+  
+  .boton-crear {
+    margin-top: 20px;
+  }
+  
+  .boton-crear button {
+    background-color: #0094ff;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  

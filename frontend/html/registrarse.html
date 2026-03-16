@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="../css/styles_registro.css">
+</head>
+<body>
+  <form id="form_usuario">
+    <div class="container">
+      <div class="overlay"></div>
+      <div class="header">
+        <img src="../img/Logo gestor de deudas.webp" alt="logo" class="logo">
+      </div>
+      <p class="marca">Gestor de deudas</p>
+      <div class="content">
+        <h1>Crear cuenta</h1>
+        <div class="linea"></div>
+      </div>
+      <div class="cuadro_registrarse">
+        <label for="nombre">Ingresa tu nombre:</label>
+        <input type="text" id="nombre_registro" class="entrada_texto" placeholder="Ingresa tu nombre" required>
+        <label for="cedula">Ingresa tu cédula:</label>
+        <input type="text" id="cedula_registro" class="entrada_texto" placeholder="Ejemplo: 123456789" required>
+        <label for="correo">Ingresa tu correo electrónico:</label>
+        <input type="text" id="correo_registro" class="entrada_texto" placeholder="Ejemplo: nombre@correo.com" required>
+        <label for="contrasena">Crea tu contraseña</label>
+        <input type="password" id="contrasena_registro" class="entrada_texto" placeholder="********************" required>
+        <button class="registrarme" onclick="CrearUsuario()">Regístrate</button>
+        <a href="../html/iniciar_seccion.html" class="volver_inicio_seccion"> volver a iniciar seccion</a>
+      </div>
+    </div>
+  </form>
+  <script src="../../backend/app.js"></script>
+</body>
+</html>

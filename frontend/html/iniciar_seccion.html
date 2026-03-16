@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../../backend/app.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="fondo_trasparencia"></div>
+        <div class="contenido">
+            <h1>Gestor de deudas</h1>
+            <p>Un gestor de deudas para organizar tus deudas <br> y pagos</p>
+        </div>
+        <img src="../img/Logo gestor de deudas.webp" alt="logo">
+        <div class="caja_iniciar_sesion">
+            <label for="cedula">Ingresa tu cédula:</label>
+            <input type="text" id="cedula_secion" class="entrada_texto" placeholder="Ejemplo: 123456789">
+            <br>
+            <label for="correo">Ingresa tu correo:</label>
+            <input type="text" id="correo_secion" class="entrada_texto" placeholder="Nombre@gmail.com">
+            <br>
+            <label for="contrasena">Ingresa tu contraseña:</label>
+            <input type="password" id="contrasena_secion" class="entrada_texto" placeholder="********">
+            <br>
+            <button class="boton_entrar" onclick="login()">Entrar</button>
+        </div>
+        <div class="enlaces">
+            <a href="../html/registrarse.html">
+                <button class="boton_crear_cuenta">Registrarse </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonar a una deuda</title>
+    <link rel="stylesheet" href="../css/styles_abonar.css">
+    <script src="../../backend/app2.js"></script>
+</head>
+<body>
+    <div class="fondoTransparente"></div>
+
+    <div class="contenido">
+      <header>
+        <img src="../img/Logo gestor de deudas.webp" alt="Logo" class="logo">
+        <h1>Gestor de deudas</h1>
+        <h2>Abonar a deuda</h2>
+      </header>
+      <main class="formulario">
+        <form>
+          <div class="fila">
+            <label for="idUsuario"><strong>Id usuario:</strong></label>
+            <input type="text" id="idUsuario" name="idUsuario">
+  
+            <label for="cuantoAbona"><strong>Cuánto se abona:</strong></label>
+            <input type="number" id="cuantoAbona" name="cuantoAbona">
+          </div>
+          <div class="fila-centro">
+            <label for="fechaAbono"><strong>Fecha de abono:</strong></label>
+            <input type="date" id="fechaAbono" name="fechaAbono">
+          </div>
+          <div class="boton">
+            <button onclick="AbonarDeuda()">
+              <img src="../img/contra-reembolso.png">
+              <span><strong>Abonar</strong></span>
+            </button>
+          </div>
+        </form>
+      </main>
+      <a href="./ver_deudas.html" class="ver_deudas"> Ver deudas </a>
+      <a href="./cerrar_deuda.html" class="cerrar_deudas"> Cerrar deuda </a>
+      <a href="./nueva_deuda.html" class="crear_deudas"> Crear una deuda</a>
+    </div>
+</body>
+</html>

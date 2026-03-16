@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver todas las deudas</title>
+    <link rel="stylesheet" href="../css/styles_ver_todas.css">
+</head>
+<body>
+    <div class="fondoTransparente"></div>
+    <div class="contenido">
+        <header>
+        <img src="../img/Logo gestor de deudas.webp" alt="Logo" class="logo">
+        <h1>Gestor de deudas</h1>
+        <h2>Todas las deudas</h2>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Usuario</th>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                    <th>Monto total</th>
+                    <th>Monto pendiente</th>
+                    <th>Descripción</th>
+                    <th>Fecha creación</th>
+                </tr>
+            </thead>
+            <tbody id="mostrarDeudas">
+            </tbody>
+            <a href="./cerrar_deuda.html" class="cerrar_deudas"> Cerrar deudas </a>
+            <a href="./abonar.html" class="abonar_deudas"> Abonar a deuda </a>
+            <a href="./nueva_deuda.html" class="crear_deudas"> Crear una deuda</a>
+        </table>
+    </div>
+
+    <script src="../../backend/app2.js"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            mostrarDeudas();
+        });
+    </script>
+</body>
+</html>

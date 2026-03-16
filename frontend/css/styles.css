@@ -1,0 +1,110 @@
+body{
+    background-color: #006D6F;
+    background-image: url('../img/pexels-photo-6590650.jpeg');
+    background-size: cover;           
+    background-position: center;      
+    background-repeat: no-repeat;     
+    background-attachment: fixed;     
+    margin: 0;                        
+    height: 100vh;    
+}
+
+.fondo_trasparencia {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 109, 111, 0.9);
+}
+
+.contenido{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 5%;
+    font-size: 150%;
+    font-family: Tahoma, sans-serif;
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    top: 25%;
+    left: 250px;
+}
+
+.caja_iniciar_sesion{
+    background-color: #006D6F;
+    border: black solid 2px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.entrada_texto {
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    margin: 5px 0 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.boton_entrar{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #0094FF;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.enlaces {
+    font-size: 20px;
+    position: absolute;
+    top: 580px;
+    left:1000px;
+    text-align: center;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.enlace_olvido{
+    color: #fff
+}
+
+.boton_crear_cuenta{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 13px;
+}
+
+

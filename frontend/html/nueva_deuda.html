@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva deuda</title>
+    <link rel="stylesheet" href="../css/styles_nueva_deuda.css">
+    <script src="../../backend/app2.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+      <a href="./ver_deudas.html" class="ver_deudas"> Ver todas las deudas</a>
+      <div class="fondoTranparente"></div>
+        <div class="encabezado">
+          <img src="../img/Logo gestor de deudas.webp" alt="Logo gestor de deudas" class="logo">
+          <h1>Gestor de deudas</h1>
+          <h2>Nueva deuda</h2>
+        </div>
+        <div class="contenedor-formulario">
+          <form>
+            <div class="fila">
+              <div class="grupo-formulario">
+                <label for="idUsuario">Id usuario:</label>
+                <input type="text" id="idUsuario">
+              </div>
+              <div class="grupo-formulario">
+                <label for="nombreDeudor">Nombre del deudor:</label>
+                <input type="text" id="nombreDeudor">
+              </div>
+            </div>
+            <div class="fila">
+              <div class="grupo-formulario">
+                <label for="correoDeudor">Correo del deudor:</label>
+                <input type="email" id="correoDeudor">
+              </div>
+              <div class="grupo-formulario">
+                <label for="telefonoDeudor">Teléfono del deudor:</label>
+                <input type="tel" id="telefonoDeudor">
+              </div>
+            </div>
+            <div class="fila">
+              <div class="grupo-formulario">
+                <label for="monto1">Monto a prestar:</label>
+                <input type="number" id="monto">
+              </div>
+            </div>
+            <div class="grupo-formulario ancho-completo">
+              <label for="descripcion">Descripción de la deuda:</label>
+              <input type="text" id="descripcion">
+            </div>
+            <div class="boton-crear">
+              <button onclick="CrearDeuda()"  type="submit">➕ Crear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
